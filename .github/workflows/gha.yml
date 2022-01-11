@@ -27,5 +27,5 @@ jobs:
         uses: docker/build-push-action@v2.7.0
         with:
           push: true
-          tags: dhpup/demoproj:1.16.8
+          tags: dhpup/demoproj
 
