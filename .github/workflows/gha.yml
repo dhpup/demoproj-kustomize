@@ -18,8 +18,8 @@ jobs:
       -
         name: Login to DockerHub
         env:
-        DOCKER_USER: ${{ secrets.DOCKER_USER }}
-        DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
+          DOCKER_USER: ${{ secrets.DOCKER_USER }}
+          DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
         uses: docker/login-action@v1 
         with:
           username: $DOCKER_USER
