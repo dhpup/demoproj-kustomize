@@ -4,3 +4,4 @@ kind: Kustomization
 resources:
 - demo-dep.yaml
 - demo-svc.yaml
+- demo-ing.yaml
