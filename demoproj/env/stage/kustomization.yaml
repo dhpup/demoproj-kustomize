@@ -5,6 +5,6 @@ resources:
 - ../../base
 images:
 - name: dhpup/demoproj
-  newTag: "1234"
+  newTag: sha-51c9e65
 - name: dhpup/demoproj:dhpup/demoproj
   newTag: sha-9b5eff2
