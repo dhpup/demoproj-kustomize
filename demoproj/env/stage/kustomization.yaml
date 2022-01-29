@@ -3,3 +3,6 @@ kind: Kustomization
 
 resources:
 - ../../base
+images:
+- name: dhpup/demoproj
+  newTag: "1234"
