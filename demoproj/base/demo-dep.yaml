@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: demoproj
 spec:
-  replicas: 3
+  replicas: 2
   progressDeadlineSeconds: 30
   selector:
     matchLabels:
