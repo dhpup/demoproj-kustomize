@@ -61,7 +61,7 @@ jobs:
         name: Kustomize
         run: |
           cd demoproj/env/stage
-          kustomize edit set image dhpup/demoproj:${{ steps.meta.outputs.tags }}
+          kustomize edit set image ${{ steps.meta.outputs.tags }}
           git config --global user.name "Commit Bot"
           git config --global user.email "no-reply@akuity.io"
           git add .
