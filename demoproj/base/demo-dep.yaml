@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: demoproj
 spec:
-  replicas: 1
+  replicas: 3
   progressDeadlineSeconds: 30
   selector:
     matchLabels:
@@ -21,4 +21,4 @@ spec:
             cpu: 100m
             memory: 100Mi
         ports:
-        - containerPort: 5000
+        - containerPort: 80
