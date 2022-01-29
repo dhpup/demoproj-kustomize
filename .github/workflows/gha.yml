@@ -55,9 +55,10 @@ jobs:
           push: ${{ github.event_name != 'pull_request' }}
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
+      -
+        uses: imranismail/setup-kustomize@v1
       - 
         name: Kustomize
-        uses: imranismail/setup-kustomize@v1
         run: |
           cd env/stage
           kustomize edit set image dhpup/demoproj:${{ steps.meta.outputs.tags }}
