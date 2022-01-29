@@ -4,6 +4,7 @@ metadata:
   name: demoproj
 spec:
   replicas: 2
+  revisionHistoryLimit: 1
   progressDeadlineSeconds: 30
   selector:
     matchLabels:
