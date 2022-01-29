@@ -6,8 +6,3 @@ resources:
 
 patchesStrategicMerge:
 - increase-replicas.yaml
-
-spec:
-  containers:
-    - name: demoproj
-      image: dhpup/demoproj
