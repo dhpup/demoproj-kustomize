@@ -60,7 +60,7 @@ jobs:
       - 
         name: Kustomize
         run: |
-          cd env/stage
+          cd demoproj/env/stage
           kustomize edit set image dhpup/demoproj:${{ steps.meta.outputs.tags }}
           git add .
           git commit -m "Set `dhpup/demoproj` image tag to `${{ steps.meta.outputs.tags }}`"
