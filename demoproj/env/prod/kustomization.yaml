@@ -6,3 +6,4 @@ resources:
 
 patchesStrategicMerge:
 - increase-replicas.yaml
+
