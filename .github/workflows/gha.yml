@@ -3,7 +3,8 @@ name: demoproj
 on:
   push:
     paths-ignore:
-      - '**/kustomization.yaml'
+     #- '**/kustomization.yaml'
+      - 'demoproj/*'
     branches:
       - 'main'
     tags:
