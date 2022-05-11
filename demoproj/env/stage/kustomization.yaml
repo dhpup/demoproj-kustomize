@@ -5,4 +5,4 @@ resources:
 - ../../base
 images:
 - name: dhpup/demoproj
-  newTag: sha-47894f91
+  newTag: sha-47894f9
