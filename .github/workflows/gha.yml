@@ -1,5 +1,5 @@
 name: demoproj
-    # trigger a build v1.2.23
+    # trigger a build v1.2.24
 on:
   push:
     paths-ignore:
